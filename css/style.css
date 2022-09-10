@@ -1,0 +1,388 @@
+body {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #00b39b;
+    /* position: relative; */
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px 0px 0px 3px rgba(160, 205, 207, 0.482); */
+    position: fixed;
+    z-index: 999;
+    overflow: hidden;
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: 50px;
+
+}
+
+.company-name {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(49, 167, 167);
+}
+
+.nav {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(49, 167, 167);
+    background-color: azure;
+
+
+}
+
+.nav a {
+    margin: 30px;
+    text-align: end;
+    text-decoration: none;
+    color: rgb(49, 167, 167);
+}
+
+
+.frist-div {
+    display: grid;
+    grid-column: 3 / 10;
+    text-align: center;
+}
+
+.company-logo {
+    grid-row: 1;
+    text-align: center;
+    justify-self: center;
+    margin: 30px;
+    margin-top: 100px;
+}
+
+.slogan {
+    width: 800px;
+    margin: 30px;
+}
+
+.slogan {
+    text-align: center;
+    font-family: roboto;
+    font-size: 26px;
+    color: #00b39b;
+    justify-self: center;
+}
+
+.paragraphes {
+    display: flex;
+    text-align: left;
+    justify-self: center;
+    width: 1000px;
+    height: 100px;
+    margin: 30px;
+    color: #00b39b;
+
+}
+
+.three-boxes {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: roboto;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+.box-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(41, 97, 97);
+    border-radius: 5px;
+}
+
+.box-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(170, 112, 37);
+    border-radius: 5px;
+}
+
+.box-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(94, 33, 200);
+}
+
+.img-logo {
+    color: white;
+}
+
+.dropdownlist {
+    width: 100px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.dropdownbtn {
+    background: transparent;
+    border: 0px;
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.downlistoption {
+    color: black;
+}
+
+.brand {
+    display: flex;
+    justify-self: center;
+    text-align: left;
+    width: 1000px;
+    padding-left: 100px;
+    color: #00b39b;
+    padding: 20px;
+}
+
+.brand h1 {
+    float: left;
+    width: 300px;
+}
+
+.company-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.companies {
+    display: inline-block;
+    width: auto;
+}
+
+.companies h6 {
+    display: inline-block;
+}
+
+
+
+/* Second Div */
+.second-div {
+    background-color: #caf4ef;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: -100px 230px
+
+}
+
+.second-div-grid {
+    display: flex;
+    width: 1000;
+    margin: auto;
+    padding-left: 100px;
+    color: #e5faf8;
+    overflow: hidden;
+}
+
+.header-paragraph {
+    width: 50%;
+    color: #00b39b;
+    margin-top: 2em;
+}
+
+.header-paragraph p {
+    color: black;
+    width: 80%;
+    margin-top: 2em;
+    background-image: url("");
+}
+
+.boxes-paragraph {
+    display: flex;
+    width: 50%;
+    color: #00b39b;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.box-up , .box-down {
+    background-color: white;
+    width: 200px;
+    min-height: 100px;
+    max-height: 300px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: .8125em;
+    padding: 20px;
+}
+.box-up{
+    margin-top: 10px;
+}
+.box-down{
+    margin-top: 30px;
+
+}
+/*
+.box1,
+.box2,
+.box3,
+.box4 {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: .8125em;
+    padding: 20px;
+}
+
+.box1 {
+    grid-row: 2 / 6;
+    grid-column: 1 / 5;
+    height: 250px;
+}
+
+.box2 {
+    grid-row: 1 / 5;
+    grid-column: 6 / 10;
+}
+
+.box3 {
+    grid-row: 7 / 11;
+    grid-column: 1 / 5;
+}
+
+.box4 {
+    grid-row: 6 / 10;
+    grid-column: 6 / 10;
+}
+*/
+
+
+/* Third Div  */
+.third-div {
+    display: grid;
+    margin-top: 50px;
+    /* text-align: center; */
+    color: #00b39b;
+    margin-bottom: 100px;
+    z-index: 50;
+}
+
+.third-div h3 {
+    text-align: center;
+    grid-row: 4 / 10;
+    grid-column: 1 / 2;
+}
+
+.third-div p {
+    text-align: center;
+    grid-row: 4 / 10;
+    grid-column: 3 / 4;
+}
+
+.country-card {
+    grid-row: 5 / 7;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: roboto;
+    font-size: 20px;
+    margin: 10px;
+    z-index: -90;
+}
+
+.frist-row {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.cards {
+    /* position: relative; */
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid rgb(197, 192, 192);
+}
+
+.cards :hover {
+    box-shadow: #00b39b;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.cards h3 {
+
+    display: inline-block;
+    text-align: left;
+    font-size: large;
+
+}
+
+.cards span {
+
+    color: white;
+    background-color: blue;
+}
+
+.foruth-header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.foruth-header span {
+    color: white;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.footer {
+    text-align: center;
+    font-size: small;
+    /* position: fixed; */
+}
