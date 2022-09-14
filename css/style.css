@@ -1,3 +1,4 @@
+
 body {
     width: 100%;
     margin-left: 0px;
@@ -14,12 +15,11 @@ h5 {
     font-weight: 300;
 }
 
-.header {
+.header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: rgb(255, 255, 255);
-    /* box-shadow: 0px 0px 0px 3px rgba(160, 205, 207, 0.482); */
     position: fixed;
     z-index: 999;
     overflow: hidden;
@@ -100,7 +100,6 @@ h5 {
     font-family: roboto;
     font-size: 20px;
     margin: 10px;
-
 }
 
 .box-one {
@@ -190,6 +189,8 @@ h5 {
 .companies {
     display: inline-block;
     width: auto;
+    padding-right: 10px;
+    color: #00b39b;
 }
 
 .companies h6 {
@@ -203,7 +204,7 @@ h5 {
     background-color: #caf4ef;
     background-image: url("../img/logo.png");
     background-repeat: no-repeat;
-    background-position: -100px 230px
+    background-position: -100px 230px;
 
 }
 
@@ -230,14 +231,14 @@ h5 {
 }
 
 .boxes-paragraph {
-    display: flex;
+    display: grid;
     width: 50%;
     color: #00b39b;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
 }
-
+/*
 .box-up , .box-down {
     background-color: white;
     width: 200px;
@@ -256,8 +257,8 @@ h5 {
 .box-down{
     margin-top: 30px;
 
-}
-/*
+}*/
+
 .box1,
 .box2,
 .box3,
@@ -293,7 +294,7 @@ h5 {
     grid-row: 6 / 10;
     grid-column: 6 / 10;
 }
-*/
+
 
 
 /* Third Div  */
@@ -385,4 +386,128 @@ h5 {
     text-align: center;
     font-size: small;
     /* position: fixed; */
+}
+
+
+@media (max-width: 768px) {
+    body {
+        width:fit-content;
+    }
+.header{
+    /* width: 100%; */
+ display: flex;
+ flex-direction: column; 
+ position: fixed;
+ z-index: 999;
+    overflow: hidden;
+    margin-top: -5px;
+    margin-bottom: 50px; 
+}
+    .nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .frist-div{
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+    .paragraphes {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        justify-self: center;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        color: #00b39b;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .three-boxes {
+        width: 100%;
+        display: flex;
+        margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.box1 , .box2 , .box3 {
+    width: 200px;
+    margin: 5px;
+}
+.brand {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.brand h1 {
+    margin: 10px;
+}
+.company-links {
+    width: 100%;
+    margin-left: -30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+.second-div {
+    width: 100%;
+    background-color: #caf4ef;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: -100px 230px;
+    
+}
+
+.second-div-grid {
+    display: flex;
+    width: 100%;
+    /* width: 1000; */
+    margin: auto;
+    padding-left: 100px;
+    color: #e5faf8;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.third-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.frist-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+    float: none;
+
+}
+
+
+
+.footer{
+    min-width: 500px;
+    /* width: 100%; */
+    background-color: rgb(0, 255, 157);
+
+}
 }
